@@ -218,6 +218,7 @@ pre {
     line-height: 1.4;
     border: 1px solid;
     padding: 5rem;
+    width: 72ch;
 }
 
 .newpage {
@@ -232,7 +233,7 @@ body {
 
 .h1, .h2, .h3, .h4, .h5, .h6,
 pre.pre.meta-info {
-	max-width: 72ch;
+	max-width: 100%;
 	white-space: pre-wrap;
 	display :block;
 }
